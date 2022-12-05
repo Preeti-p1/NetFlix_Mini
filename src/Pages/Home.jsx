@@ -3,7 +3,7 @@ import Card from "../Component/Card";
 import { movie_Data } from "./Data";
 
 // import Card from '../Component/Card'
-export default function () {
+export default function Home() {
   return (
     <div className="container mt-5 cards_container">
       {movie_Data.map((val, i) => {
