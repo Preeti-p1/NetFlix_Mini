@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(props) {
   return (
     <>
-      <a href="" className="card">
+      <div  className="card">
         <img src={props.img} className="card__image" alt="" />
         <div className="card__overlay">
           <div className="card__header">
@@ -18,7 +18,7 @@ export default function Card(props) {
           </div>
           <p className="card__description">{props.desc}</p>
         </div>
-      </a>
+      </div>
     </>
   );
 }
